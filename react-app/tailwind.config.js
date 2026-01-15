@@ -44,8 +44,8 @@ module.exports = {
         sm: 'calc(var(--radius) - 4px)',
       },
       fontFamily: {
-        sentient: ['Sentient', 'sans-serif'],
-        mono: ['monospace'],
+        sentient: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
       },
       boxShadow: {
         glow: '0 0 20px rgba(0, 255, 136, 0.5)',

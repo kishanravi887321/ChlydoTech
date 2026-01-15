@@ -74,7 +74,8 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
-@font-face {
+/* Font files not included - using fallback fonts */
+/* @font-face {
   font-family: "Sentient";
   src: url("/Sentient-Extralight.woff") format("woff");
   font-weight: 200;
@@ -88,7 +89,7 @@
   font-weight: 300;
   font-style: italic;
   font-display: swap;
-}
+} */
 
 body {
   background: var(--background);
